@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">अन्न मित्र-आपके सहायतार्थ</string>
+    <string name="incorrect_fields">कृपया सही ढंग से फ़ील्ड दर्ज करे</string>
+    <string name="shopkeeper_name">दुकानदार का नाम</string>
+    <string name="shop_code">दुकान कोड</string>
+    <string name="shop_no">दुकान संख्या</string>
+    <string name="address">पता</string>
+    <string name="mobile_number">मोबाइल नंबर</string>
+    <string name="get_directions">दिशा - निर्देश प्राप्त करें</string>
+    <string name="nameOfficer">अधिकारी का नाम</string>
+    <string name="officerPost">अधिकारी पद</string>
+    <string name="officerContact">अधिकारी का मोबाइल नंबर</string>
+    <string name="officerArea">अधिकारी का क्षेत्र</string>
+    <string name="rationShopsList">राशन की दुकान की सूची</string>
+    <string name="procurementCentre">खरीद केंद्र की सूची</string>
+</resources>

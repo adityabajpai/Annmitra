@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="com.example.asus.annmitra2.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/totalcard"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/atulgargji" />
+
+     <de.hdodenhof.circleimageview.CircleImageView
+         android:layout_width="100dp"
+         android:layout_height="100dp"
+         android:src="@drawable/yogiji"
+         android:layout_marginLeft="60dp"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:background="#fff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1">
+
+                <LinearLayout
+                    android:id="@+id/shopActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="120sp"
+                    android:background="#c6240b"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="50sp"
+                        android:layout_height="20sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20sp"
+                        android:layout_weight="1"
+                        android:background="@drawable/baseline_shopping_basket_white_48dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20sp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center|top"
+                        android:text="दुकान"
+                        android:textSize="20sp"
+                        android:textColor="#000" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9">
+
+                <LinearLayout
+                    android:id="@+id/notificationActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="120sp"
+                    android:background="#f2d45c"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="50sp"
+                        android:layout_height="20sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20sp"
+                        android:layout_weight="1"
+                        android:background="@drawable/baseline_notification_important_white_48dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20sp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center|top"
+                        android:text="सूचनाएं"
+                        android:textSize="20sp"
+                        android:textColor="#000" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="12sp"
+        android:background="#fff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9">
+
+                <LinearLayout
+                    android:id="@+id/importantLinksActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="120sp"
+                    android:background="#b7e271"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="50sp"
+                        android:layout_height="20sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20sp"
+                        android:layout_weight="1"
+                        android:background="@drawable/baseline_web_white_48dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20sp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center|top"
+                        android:text="महत्वपूर्ण लिंक"
+                        android:textSize="20sp"
+                        android:textColor="#000" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1">
+
+                <LinearLayout
+                    android:id="@+id/downloadDocumentsActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="120sp"
+                    android:background="#368e07"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="50sp"
+                        android:layout_height="20sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20sp"
+                        android:layout_weight="1"
+                        android:background="@drawable/baseline_cloud_download_white_48dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20sp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center|top"
+                        android:text="दस्तावेज डाउनलोड करें"
+                        android:textSize="20sp"
+                        android:textColor="#000" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="12sp"
+        android:background="#fff">
+
+        <LinearLayout
+            android:id="@+id/contactUsActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120sp"
+                    android:background="#5ee2d7"
+                    android:id="@+id/linearLayoutContactUs"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="50sp"
+                        android:layout_height="20sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20sp"
+                        android:layout_weight="1"
+                        android:background="@drawable/baseline_contact_support_white_48dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20sp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center|top"
+                        android:text="हमसे संपर्क करें"
+                        android:textSize="20sp"
+                        android:textColor="#000" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9">
+
+                <LinearLayout
+                    android:id="@+id/submitQueryActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="120sp"
+                    android:background="#2976b9"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="50sp"
+                        android:layout_height="20sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20sp"
+                        android:layout_weight="1"
+                        android:background="@drawable/baseline_question_answer_white_48dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20sp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center|top"
+                        android:text="जिज्ञासा दर्ज करें"
+                        android:textSize="20sp"
+                        android:textColor="#000" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

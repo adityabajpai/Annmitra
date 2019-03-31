@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="20sp"
+        android:background="#c1bfbf"
+        android:gravity="center|start"
+        android:paddingEnd="10sp"
+        android:paddingStart="10sp"
+        android:text="SUBJECT"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="2sp"
+        android:gravity="center|start"
+        android:paddingEnd="10sp"
+        android:paddingStart="10sp"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:layout_marginEnd="15sp"
+        android:layout_marginStart="15sp"
+        android:background="#c1bfbf" />
+
+    <TextView
+        android:id="@+id/timeStamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="2sp"
+        android:gravity="center|end"
+        android:paddingEnd="10sp"
+        android:paddingStart="10sp"
+        android:text="13-09-2018 5:55pm"
+        android:textSize="15sp" />
+
+</LinearLayout>
